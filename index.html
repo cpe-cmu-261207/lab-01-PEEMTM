@@ -7,7 +7,58 @@
   <title>My Resume Website</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <p>This test</p>
+<body class="bg-gray-400">
+    <!--nevbar container-->
+    <div class="bg-white border-b-2 py-4">
+      <!--navbar-->
+      <div class="flex justify-evenly max-w-screen-md mx-auto">
+        <p class="font-semibold text-x1 text-blue-600"> Home </p>
+        <p class="font-semibold text-x1 text-blue-600"> Experience </p>
+        <p class="font-semibold text-x1 text-blue-600"> Contact </p>
+      </div>
+    </div>
+
+    <!-- Post container-->
+    <div class="space-y-2 py-4">
+      <!--Box card-->
+      <div class="bg-white max-w-screen-md mx-auto p-4 shadow-lg rounded-xl ring-1 ring-gray-300">
+        <!-- Profile -->
+        <div class="flex p-8">
+          <img class="rounded-full object-cover w-48" src="/picture/Me.JPG">
+          <div class="p-4 px-8">
+            <p class="font-semibold text-xl ">Atthapong Auewongchai</p>
+            <p class="text-sm text-gray-600 py-8 ">
+              Hi , My name is Atthapong Auewongchai.I study at Chiangmai University faculty of Computer Engineering.I'm interested in Ai and Hardware.  
+            </p>
+          </div>
+        </div>
+
+        <p class="text-center text-red-600 text-xl font-semibold">My Skills</p>
+
+        <!-- Programming -->
+        <div class="flex p-4 shadow-lg">
+          <img class="rounded-l-lg object-cover h-40 w-40 " src="/picture/prog.jpg" alt="Programming">
+          <div class="p-4 px-8">
+            <p class="font-semibold text-xl ">Programming</p>
+            <p class="text-sm text-gray-600 py-8 ">
+              I code using C++,java and html using VScode,and also some frontend website.
+            </p>
+          </div>
+        </div>
+        <!-- UI/UX -->
+        <div class="flex p-4 shadow-lg">
+          <img class="rounded-l-lg object-cover h-40 w-40 " src="/picture/Webpage.jpg" alt="Programming">
+          <div class="p-4 px-8">
+            <p class="font-semibold text-xl ">Webpage design</p>
+            <p class="text-sm text-gray-600 py-8 ">
+              The front page is the most important for a website to attract people to your website.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="bg-white py-4">
+    <p class="text-center text-blue-600 ">© 2021 PEEMTM.com by Atthapong Auewongchai</p>
+  </div>
 </body>
 </html>
