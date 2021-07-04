@@ -8,6 +8,69 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="relative min-h-screen flex">
+        <!-- Profile -->
+        <div class="p-12 bg-blue-400 w-64 ">
+          <img class="rounded-full object-fill w-40" src="picture/Me.JPG">
+          <br>
+          <div class="text-center">
+          <p class="font-semibold text-white text-xl">PEEMTM</p>
+          </div>
+          <br><br>
+          <!--navbar-->
+          <div class="font-semibold text-x1 text-white">
+            <a href="./index.html"><p> Home </p><br></a>
+            <a href="./experience.html"><p class="text-black"> Experience </p><br></a>
+            <a href="./contact.html"><p> Contact </p></a>
+          </div>
+          <!--navbar icon-->
+          <div class="fixed flex bottom-16 inset-x-16 space-x-6">
+            <!-- facebook -->
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100000200849341"><img src="https://img.icons8.com/ios-filled/25/000000/facebook-f.png"/></a>
+            <!-- ig -->
+            <a target="_blank" href="https://www.instagram.com/attpong_peem/"><img src="https://img.icons8.com/ios-glyphs/25/000000/instagram-new.png"/></a>
+            <!-- twitter -->
+            <a target="_blank" href="https://twitter.com/PEEM_TM"><img src="https://img.icons8.com/ios-glyphs/25/000000/twitter--v1.png"/></a>
+          </div>
+            <p class="fixed bottom-4 inset-x-16 text-blue-600 ">© 2021 PEEMTM</p>
+        </div>
+
+        <!-- Home detail -->
+        <div class="flex-1 bg-white ring-gray-300">
+          <p class="py-20 text-center text-3xl text-black">Project Experience</p>
+          <div class="my-20 max-w-screen-md mx-auto">
+          <!-- scratch -->
+          <div class="flex items-center p-4 shadow-lg">
+            <img class="rounded-l-lg object-fill h-40 w-40 " src="picture/scratch.jpg">
+            <div class="p-4 px-8">
+              <p class="font-semibold text-xl ">Project Scratch</p>
+              <p class="text-sm text-gray-600 py-8 ">
+                Create game from Scratch Block Language.
+              </p>
+            </div>
+          </div>  
+          <!-- gogoboard -->
+          <div class="flex items-center p-4 shadow-lg">
+            <img class="rounded-l-lg object-fill h-40 w-40 " src="picture/gogoboard.png" ">
+            <div class="p-4 px-8">
+              <p class="font-semibold text-xl ">Project gogoboard</p>
+              <p class="text-sm text-gray-600 py-8 ">
+                Small project that creates a rube goldberg machine that sends the ball to another team's machine till the end of line.
+              </p>
+            </div>
+          </div>
+          <!-- Game -->
+          <div class="flex p-4 shadow-lg">
+            <img class="rounded-l-lg object-fill h-40 w-40 " src="picture/c++.jpg" ">
+            <div class="p-4 px-8">
+              <p class="font-semibold text-xl ">Project game with c++</p>
+              <p class="text-sm text-gray-600 py-8 ">
+                Create game or program that actually works from dev tool or engine with c++ language.
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
 </body>
 </html>
